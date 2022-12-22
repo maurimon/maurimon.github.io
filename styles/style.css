@@ -1,0 +1,564 @@
+body {
+    margin: 0;
+    background-image: url(../images/background.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#title-mobile {
+    margin-top: 70px;
+}
+
+#title-mobile h1 {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#title-desktop {
+    display: none;
+}
+
+#level-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#level-border-mobile {
+    padding: 10px;
+}
+
+#level-title-mobile {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#level-easy-mobile label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#level-medium-mobile label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#level-hard-mobile label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#level-desktop {
+    display: none;
+}
+
+#start-button-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: -140px;
+}
+
+#start-button-mobile button {
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+#start-button-desktop {
+    display: none;
+}
+
+#newGame-button-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 110px;
+}
+
+#newGame-button-mobile button {
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+#newGame-button-desktop {
+    display: none;
+}
+
+#instructions-button-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#instructions-button-mobile button {
+    height: 30px;
+    border-radius: 5px;
+}
+
+#instructions-button-desktop {
+    display: none;
+}
+
+#states-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightyellow;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#states-mobile p  {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#states-mobile p:nth-child(1) {
+    margin-left: -10px;
+}
+
+#states-desktop {
+    display: none;
+}
+
+#userValueInput-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#userValueInput-mobile label {
+    margin-right: 120px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userValueInput-mobile input {
+    margin-top: 10px;
+    margin-left: -206px;
+    height: 25px;
+    width: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userValueInput-mobile button {
+    margin-top: 10px;
+    margin-left: -155px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+#userValueInput-desktop {
+    display: none;
+}
+
+#comments-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#comments-mobile p:nth-child(1) {
+    margin-top: 50px;
+    
+}
+
+#comments-mobile p:nth-child(5) {
+    margin-bottom: 50px;
+}
+
+#comments-desktop {
+    display: none;
+}
+
+#score-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: lightyellow;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#score-mobile h1 {
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#userScore-mobile {
+    
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#computerScore-mobile  {
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#score-desktop {
+    display: none;
+}
+
+
+
+#footer-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+#footer-mobile span {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer-desktop {
+    display: none;
+}
+
+.modal button {
+    margin-top: 20px;
+    margin-left: 255px;
+    background-color: #47a386;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 25px;
+  }
+  
+.modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+}
+  
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+  
+.modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+  
+.modal h1 {
+    margin: 0;
+    text-align: center;
+}
+  
+.modal p {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+@media (min-width: 750px) {
+    
+    #title-mobile {
+        display: none;
+    }
+
+    #title-desktop {
+        display: block;
+        margin-top: 70px;
+    }
+    
+    #title-desktop h1 {
+        background-color: white;
+        border: 10px solid black;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    #level-mobile {
+        display: none;
+    }
+
+    #level-desktop {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #level-border-desktop {
+        padding: 30px;
+    }
+    
+    #level-title-desktop {
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #level-easy-desktop label {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #level-medium-desktop label {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #level-hard-desktop label {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #start-button-mobile {
+        display: none;
+    }
+
+    #start-button-desktop {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-left: -230px;
+    }
+    
+    #start-button-desktop button {
+        margin-right: 30px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+
+    #newGame-button-mobile {
+        display: none;
+    }
+
+    #newGame-button-desktop {
+        display: flex;
+        justify-content: center;
+        margin-top: -50px;
+        margin-left: 235px;
+    }
+    
+    #newGame-button-desktop button {
+        margin-right: 30px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+
+    #instructions-button-mobile {
+        display: none;
+    }
+
+    #instructions-button-desktop {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    #instructions-button-desktop button {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 50px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    #states-mobile {
+        display: none;
+    }
+
+    #states-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightyellow;
+        margin-top: 100px;
+        
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    #states-desktop p  {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #states-desktop p:nth-child(1) {
+        margin-left: -20px;
+    }
+
+    #userValueInput-mobile {
+        display: none;
+    }
+
+    #userValueInput-desktop {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px
+    }
+    
+    #userValueInput-desktop label {
+        margin-right: 25px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #userValueInput-desktop input {
+        margin-top: -9px;
+        
+        height: 50px;
+        width: 70px;
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #userValueInput-desktop button {
+        margin-top: -10px;
+        margin-left: 30px;
+        height: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+
+    #comments-mobile {
+        display: none;
+    }
+
+    #comments-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 140px;
+        background-color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    
+    #comments-desktop p:nth-child(1) {
+        margin-top: 50px;
+        
+    }
+    
+    #comments-desktop p:nth-child(5) {
+        margin-bottom: 50px;
+    }
+    
+    #score-mobile {
+        display: none;
+    }
+
+    #score-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+        background-color: lightyellow;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    
+    #score-desktop h1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #userScore-desktop {
+        margin-left: -30px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #computerScore-desktop  {
+        margin-left: -10px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #footer-mobile {
+        display: none;
+    }
+
+    #footer-desktop {
+        display: flex;
+        justify-content: center;
+        margin-top: 500px;
+        margin-bottom: 100px;
+    }
+    
+    #footer-desktop span {
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

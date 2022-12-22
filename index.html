@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="title-desktop">
+                <h1>Dice & Win !</h1>
+            </div>
+            <div id="title-mobile">
+                <h1>Dice & Win !</h1>
+            </div>  
+        </header>
+        <div id="content">
+            <section id="level-desktop">
+                <fieldset id="level-border-desktop">
+                    <legend id="level-title-desktop">Elija el nivel de dificultad: </legend>
+                    <div id="level-easy-desktop">
+                        <input type="radio" name="level-desktop" value="easy" id="easy-desktop" checked> 
+                        <label for="easy">Fácil</label>
+                    </div>
+                    <div id="level-medium-desktop">
+                        <input type="radio" name="level-desktop" value="medium" id="medium-desktop"> 
+                        <label for="medium">Medio</label> 
+                    </div>
+                    <div id="level-hard-desktop">
+                        <input type="radio" name="level-desktop" value="hard" id="hard-desktop"> 
+                        <label for="hard">Difícil</label>
+                    </div>    
+                </fieldset> 
+            </section>
+            <section id="level-mobile">
+                <fieldset id="level-border-mobile">
+                    <legend id="level-title-mobile">Elija el nivel de dificultad: </legend>
+                    <div id="level-easy-mobile">
+                        <input type="radio" name="level-mobile" value="easy" id="easy-mobile" checked> 
+                        <label for="easy">Fácil</label>
+                    </div>
+                    <div id="level-medium-mobile">
+                        <input type="radio" name="level-mobile" value="medium" id="medium-mobile"> 
+                        <label for="medium">Medio</label> 
+                    </div>
+                    <div id="level-hard-mobile">
+                        <input type="radio" name="level-mobile" value="hard" id="hard-mobile"> 
+                        <label for="hard">Difícil</label>
+                    </div>    
+                </fieldset>
+            </section>
+            <section id="start-button-desktop">
+                <button id="start-desktop" onclick="startDesktop()">Comenzar</button>    
+            </section>
+            <section id="start-button-mobile">
+                <button id="start-mobile" onclick="startMobile()">Comenzar</button>    
+            </section>
+            <section id="newGame-button-desktop">
+                <button id="newGame-desktop" onclick="newGameDesktop()">Nuevo Juego</button>    
+            </section>
+            <section id="newGame-button-mobile">
+                <button id="newGame-mobile" onclick="newGameMobile()">Nuevo Juego</button>    
+            </section>
+            <section id="instructions-button-desktop">
+                <button id="instructions-desktop" onclick="showInstructionsDesktop()">Mostrar Instrucciones</button>
+            </section>
+            <section id="instructions-button-mobile">
+                <button id="instructions-mobile" onclick="showInstructionsMobile()">Mostrar Instrucciones</button>
+            </section>
+            <section id="states-desktop">
+                <p id="userState-desktop"><strong>Estado del Jugador: </strong></p>
+                <p id="computerState-desktop"><strong>Estado del Oponente: </strong></p>
+            </section>
+            <section id="states-mobile">
+                <p id="userState-mobile"><strong>Estado del Jugador: </strong></p>
+                <p id="computerState-mobile"><strong>Estado del Oponente: </strong></p>
+            </section>
+            <section id="userValueInput-desktop">
+            
+            </section>
+            <section id="userValueInput-mobile">
+            
+            </section>
+            <section id="comments-desktop">
+
+            </section>
+            <section id="comments-mobile">
+            
+            </section>
+            <section id="score-desktop">
+                <h1>Puntación</h1>
+                <p id="userScore-desktop">Jugador: <span id="userScoreValue-desktop"></span></p>
+                <p id="computerScore-desktop">Oponente: <span id="computerScoreValue-desktop"></span></p>
+            </section>
+            <section id="score-mobile">
+                <h1>Puntación</h1>
+                <p id="userScore-mobile">Jugador: <span id="userScoreValue-mobile"></span></p>   
+                <p id="computerScore-mobile">Oponente: <span id="computerScoreValue-mobile"></span></p>
+            </section>
+        </div>
+        <footer>
+            <div id="footer-desktop">
+                <span>Copyright 2022</span>
+            </div>
+            <div id="footer-mobile">
+                <span>Copyright 2022</span>
+            </div>
+        </footer>
+        <div id="modal_container_desktop" class="modal-container">
+            <div id="modalId" class="modal">
+              <h1 id="popup-title-desktop"></h1>
+              <p id="popup-content-desktop"></p>
+              <button id="close_desktop">Cerrar</button>
+            </div>
+          </div>
+          <div id="modal_container_mobile" class="modal-container">
+            <div id="modalId" class="modal">
+              <h1 id="popup-title-mobile"></h1>
+              <p id="popup-content-mobile"></p>
+              <button id="close_mobile">Cerrar</button>
+            </div>
+          </div>
+    </body>
+    <script src="./scripts/script.js"></script>
+</html>
+
